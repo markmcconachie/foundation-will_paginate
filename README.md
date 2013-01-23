@@ -1,6 +1,6 @@
 # Foundation::WillPaginate
 
-TODO: Write a gem description
+Integrates Zurb Foundation's [pagination styles](http://foundation.zurb.com/docs/navigation.php) with [will_paginate](https://github.com/mislav/will_paginate).
 
 ## Installation
 
@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your view where you would usually use
+
+```
+<%= will_paginate @posts %>
+```
+
+Now use
+
+```
+<%= foundation_paginate @posts %>
+```
 
 ## Contributing
 
